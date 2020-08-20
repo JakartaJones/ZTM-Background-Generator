@@ -1,0 +1,48 @@
+body {
+  font: "helvetica", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, #ff0000, #ffff00); /* Standard syntax */
+}
+
+h1 {
+  font: 9.8vw "helvetica", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 8vw;
+  width: 100%;
+}
+
+h2 {
+  font: 3.5vw "helvetica", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+}
+
+h3 {
+  font: 2.5vw "helvetica", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  letter-spacing: 0.01em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+#random {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-style: none;
+  /* border-color: rgba(0, 0, 0, 0.5);
+  border-width: 1px; */
+  font: inherit;
+  font-style: italic;
+  text-transform: inherit;
+  color: inherit;
+  padding: 10px;
+}
